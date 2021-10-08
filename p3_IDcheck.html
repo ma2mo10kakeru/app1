@@ -29,7 +29,7 @@ $(function () {
 });
 function IDcheck1(drugdata){
     var ID0, p3st0;
-    ID0 = drugdata[1].id;
+    ID0 = drugdata[3].id;
     p3st0 = localStorage.getItem(P3_STATUS0);
     if(p3st0 == "未投与"){
         alert("与薬情報が未確認です！\n情報を確認してからIDチェックをして下さい！");
@@ -59,7 +59,7 @@ $(function () {
 });
 function IDcheck2(drugdata){
     var ID1, p3st1;
-    ID1 = drugdata[1].id;
+    ID1 = drugdata[3].id;
     p3st1 = localStorage.getItem(P3_STATUS1);
     if(p3st1 == "未投与"){
         alert("与薬情報が未確認です！\n情報を確認してからIDチェックをして下さい！");
@@ -89,7 +89,7 @@ $(function () {
 });
 function IDcheck3(drugdata){
     var ID2, p3st2;
-    ID2 = drugdata[1].id;
+    ID2 = drugdata[3].id;
     p3st2 = localStorage.getItem(P3_STATUS2);
     if(p3st2 == "未投与"){
         alert("与薬情報が未確認です！\n情報を確認してからIDチェックをして下さい！");
